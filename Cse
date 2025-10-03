@@ -1,0 +1,22 @@
+body {
+  background: #f5f0fa;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+.hidden {
+  display: none;
+}
+#gift {
+  margin-top: 20px;
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
